@@ -1,6 +1,6 @@
 apt install docker.io -y
 
-for i in {1..10}
+for i in {$1..$2}
 do
    docker run -dit \
   --name peer$i \
