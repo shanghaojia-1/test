@@ -1,3 +1,5 @@
+apt install doker.io -y
+
 for i in {1..10}
 do
    docker run -dit \
