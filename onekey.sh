@@ -6,5 +6,5 @@ do
   --name peer$i \
   --hostname  peer$i \
   --restart always \
-  shanghaojia1/mypeer
+  notfourflow/p2pclient:alpine ligangwuhui@gmail.com
 done
