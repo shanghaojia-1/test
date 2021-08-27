@@ -1,3 +1,4 @@
+apt update
 apt install docker.io -y
 
 for ((i=$1; i<=$2; i++))
